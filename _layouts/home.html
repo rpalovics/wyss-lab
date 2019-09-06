@@ -1,0 +1,85 @@
+---
+layout: default
+---
+<script src="{{ site.baseurl }}/assets/javascript/jquery-3.3.1.min.js"></script>
+<script src="{{ site.baseurl }}/assets/javascript/bootstrap.min.js"></script>
+
+<div class="row">
+
+<div class="col-md-3">
+<img src=/assets/images/4.jpg>
+</div>
+
+<div class="col-md-3">
+<img src=/assets/images/2.jpg>
+</div>
+
+<div class="col-md-3">
+<img src=/assets/images/5.jpg style="float:right">
+<div class="text-block">
+<div id="carousel_container">
+        {% include carousel.html %}
+</div>
+</div>
+</div>
+
+<div class="col-md-3">
+<img src=/assets/images/1.jpg style="float:right">
+</div>
+
+</div>
+
+<div class="row">
+
+    <div class="col-md-12">
+        <header>
+        <h1>Welcome to the Wyss-Coray Lab</h1>
+        </header>
+        <h3>  The Wyss-Coray research team studies <b>brain aging</b> and <b>neurodegeneration</b> with a focus on age-related cognitive decline and Alzheimer’s disease. The lab is part of the <b>Glenn Center for Aging at Stanford</b>, the <b>Stanford Neurosciences Institute’s Brain Rejuvenation Project</b>, The <b>NIH Alzheimer’s Disease Research Center</b>, and it is funded by the <b>Department of Veterans Affairs</b>, the <b>National Institute on Aging</b>, the <b>Cure Alzheimer’s Fund</b>, and the <b>NOMIS Foundation</b>. 
+</h3>
+    </div>
+
+</div>
+
+<div class="spacer"></div>
+
+<div class="row">
+<div class="col-md-12">
+<h2>Resources</h2>
+</div>
+<div class="spacer"></div>
+{% assign sorted = site.data.papers | sort: 'date' | reverse %}
+{% for paper in sorted limit:4 %}
+            <div class="col-md-3">
+            <a href="{{ paper.url }}">
+                <img  src="{{ paper.image }}">
+            </a>
+            <div>
+                <a href="{{ paper.url }}">{{ paper.title }}</a>, <b>{{ paper.authors }}</b>, <b>{{ paper.journal }}</b>
+            </div>
+</div>
+{% endfor %}
+</div>
+
+
+<div class="row">
+<div class="col-md-12">
+<h2>Recent publications</h2>
+</div>
+<div class="spacer"></div>
+{% assign sorted = site.data.papers | sort: 'date' | reverse %}
+{% for paper in sorted limit:4 %}
+            <div class="col-md-3">
+            <a href="{{ paper.url }}">
+                <img  src="{{ paper.image }}">
+            </a>
+            <div>
+                <a href="{{ paper.url }}">{{ paper.title }}</a>, <b>{{ paper.authors }}</b>, <b>{{ paper.journal }}</b>
+            </div>
+</div>
+{% endfor %}
+</div>
+</div>
+</div>
+
+{{ content }}

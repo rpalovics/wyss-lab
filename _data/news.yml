@@ -1,0 +1,16 @@
+- date: 2019-09-01
+  description: Benoit's new paper preprint on BioRxiv describes waves of aging in the human plasma proteome, with the first major wave in the mid 30’s!! - based on >4,300 people and 2,900 proteins
+  url: https://www.biorxiv.org/content/10.1101/722827v1
+
+- date: 2019-08-06
+  description: Julia's paper is out on BioRxiv! Alzheimer saw these cells back in 1906, and they were forgotten for 113 years. Now Julia has rediscovered them complete with an exhaustive characterization.
+  url: 'https://www.biorxiv.org/content/10.1101/722827v1'
+
+               
+- date: 2019-05-13
+  description: Hanadie's paper was published in Nature Medicine! She found that blocking VCAM1 circulating in blood with an antibody can counteract the cognitive deficits that occur in aged mice. 
+  url: "https://www.nature.com/articles/s41591-019-0440-4"
+
+- date: 2019-04-03
+  description: John's paper was published in Nature! Starting with an initial CRISPR screen, he found that blocking CD22 with an antibody restored homeostatic microglial phagocytosis and cognitive function in aged mice.
+  url: "https://www.nature.com/articles/s41586-019-1088-4"

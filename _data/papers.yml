@@ -1,0 +1,35 @@
+
+- date: 2018-01-01
+  layout: paper
+  title: Single-cell transcriptomic characterization of 20 organs and tissues from individual mice creates a Tabula Muris
+  image: "assets/images/tb.png"
+  authors: Schaum et al.
+  year: 2018
+  journal: "Nature"
+  url: https://www.biorxiv.org/content/10.1101/722827v1
+
+- date: 2019-04-03
+  layout: paper
+  title: CD22 blockade restores homeostatic microglial phagocytosis in ageing brains
+  image: "assets/images/cd22.png"
+  authors: Pluvinage et al.
+  year: 2019
+  journal: "Nature"
+
+- date: 2019-06-18 
+  layout: paper
+  title: An 80,000-Piece Puzzle of Alzheimer’s Disease
+  image: "assets/images/puzz.png"
+  authors: Iram et al.
+  year: 2019
+  journal: "Cell"
+  url: https://www.biorxiv.org/content/10.1101/722827v1
+
+- date: 2019-05-13 
+  layout: paper
+  title: Aged blood impairs hippocampal neural precursor activity and activates microglia via brain endothelial cell VCAM1
+  image: "assets/images/vcam1.png"
+  authors: Yousef et al.
+  year: 2019
+  journal: "Nature Medicine"
+  url: https://www.biorxiv.org/content/10.1101/722827v1

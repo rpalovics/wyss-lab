@@ -1,0 +1,14 @@
+- name: Tony Wyss-Coray
+  position: Professor
+  email: pi@institution.edu
+ 
+- name: Grad Student
+  position: Grad Student
+  email: grad@institution.edu
+  github: github_handle
+
+
+- name: Super Postdoc 
+  position: Postdoc
+  email: super_postdoc@institution.edu
+  google_scholar: super_scholar
